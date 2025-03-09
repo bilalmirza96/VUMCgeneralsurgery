@@ -1,15 +1,43 @@
 main:
   - title: "Home"
     url: /
-  - title: "PGY-1 Survival Guide"
-    url: /pgy1/
-  - title: "Operative Skills"
-    url: /skills/
-  - title: "Call Schedule"
-    url: /call/
-  - title: "Protocols"
-    url: /protocols/
-  - title: "Surgical Pearls"
-    url: /pearls/
-  - title: "Emergency Procedures"
-    url: /emergency/
+  - title: "Head and Neck"
+    url: /head-and-neck/
+  - title: "Thyroid"
+    url: /thyroid/
+  - title: "Parathyroid"
+    url: /parathyroid/
+  - title: "Esophagus"
+    url: /esophagus/
+  - title: "Stomach"
+    url: /stomach/
+  - title: "Spleen"
+    url: /spleen/
+  - title: "Hepatobiliary"
+    url: /hepatobiliary/
+  - title: "Adrenal"
+    url: /adrenal/
+  - title: "Pancreas"
+    url: /pancreas/
+  - title: "Colorectal"
+    url: /colorectal/
+  - title: "Vascular"
+    url: /vascular/
+  - title: "Breast"
+    url: /breast/
+  - title: "Hematology"
+    url: /hematology/
+  - title: "Trauma"
+    url: /trauma/
+  - title: "Critical Care"
+    url: /critical-care/
+  - title: "Fluids and Electrolytes"
+    url: /fluids-electrolytes/
+  - title: "Hernias"
+    url: /hernias/
+  - title: "Thoracic"
+    url: /thoracic/
+  - title: "Pediatric Surgery"
+    url: /pediatric-surgery/
+  - title: "Biostatistics"
+    url: /biostatistics/
