@@ -1,0 +1,15 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "PGY-1 Survival Guide"
+    url: /pgy1/
+  - title: "Operative Skills"
+    url: /skills/
+  - title: "Call Schedule"
+    url: /call/
+  - title: "Protocols"
+    url: /protocols/
+  - title: "Surgical Pearls"
+    url: /pearls/
+  - title: "Emergency Procedures"
+    url: /emergency/
