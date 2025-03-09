@@ -1,0 +1,84 @@
+title: "Bilal's Website"
+description: "A simple GitHub Pages site powered by Jekyll"
+baseurl: ""
+url: "https://your-username.github.io"
+
+# Theme (can be changed later)
+theme: minima
+
+# Navigation Links
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "/contact"
+
+# Plugins (Optional, but useful)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Directory Structure
+include:
+  - _layouts
+  - _includes
+  - _posts
+
+# Home Page
+index.html:
+  """
+  ---
+  layout: default
+  title: Home
+  ---
+  <h1>Welcome to Bilal's Website</h1>
+  <p>This is a simple website powered by GitHub Pages and Jekyll.</p>
+  """
+
+# About Page
+about.md:
+  """
+  ---
+  layout: default
+  title: About
+  ---
+  # About Me
+  This is a brief introduction about myself.
+  """
+
+# Contact Page
+contact.md:
+  """
+  ---
+  layout: default
+  title: Contact
+  ---
+  # Contact Me
+  You can reach me at my email: example@example.com
+  """
+
+# Default Layout
+_layouts/default.html:
+  """
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{{ page.title }}</title>
+  </head>
+  <body>
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+          </ul>
+      </nav>
+      <div>
+          {{ content }}
+      </div>
+  </body>
+  </html>
